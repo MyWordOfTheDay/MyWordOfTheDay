@@ -6,11 +6,9 @@ Ever come across words that you have to look up the definition for, only to see 
 
 Yeah, me too.
 
-This is a service which takes words you would like to learn, and aims to sends you one at random every day in the hope the definition will stick.
+This is a service which takes words you would like to learn and, if enabled/configured, aims to sends you one at random, to your email, every day in the hope the definition will stick.
 
 What you do with the words after that is completely up to you, but I recommend trying to use the word you're sent throughout the day to really learn it.
-
-If enabled and configured, you'll get a word delivered by email based on a cron tab schedule.
 
 ## How do I use it?
 
