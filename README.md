@@ -12,8 +12,6 @@ What you do with the words after that is completely up to you, but I recommend t
 
 ## What's on the roadmap?
 
-Well, technically everything (it hasn't even been built yet). But here's stuff I have planned:
-
 * Integration with a Dictionary API, so you can specify the word you want to keep and you'll be able to keep the definition to keep.
   * With the option of specifying a custom definition if the provided ones are unsatisfactory
 * Email integration (with SMTP details provided) so you get a daily email
