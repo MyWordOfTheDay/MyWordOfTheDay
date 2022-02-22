@@ -18,6 +18,14 @@ services:
       - DB_USERNAME=mywordoftheday
       - DB_PASSWORD=supersecretpassword
       - DB_NAME=mywordoftheday
+      - SMTP_ENABLED=true
+      - SMTP_SCHEDULE=0 12 * * *
+      - SMTP_HOST=smtp.gmail.com
+      - SMTP_PORT=587
+      - SMTP_USERNAME=yourgmailaddress@gmail.com
+      - SMTP_PASSWORD=yourpassword # Note - if your gmail account uses 2FA you need to use an App Password - https://support.google.com/mail/answer/185833?hl=
+      - SMTP_FROM_ADDRESS=yourgmailaddress@gmail.com
+      - SMTP_TO_ADDRESSES=whoyouwanttosenditto@gmail.com
     # Optionally, provide a config file.
     # You don't need to speify this and the environment variables
     # volumes:
